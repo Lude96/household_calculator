@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  household-calculator:
+    build: .
+    volumes:
+      - ./data:/app/data
+    environment:
+      - TZ=Europe/Berlin
+    # Default: lists all transactions
+    # Override: docker-compose run household-calculator add -type expense -category Groceries -amount 50.25

@@ -1,0 +1,7 @@
+go_tmp/
+*.json
+*.pdf
+*.html
+.git/
+.gitignore
+*.exe

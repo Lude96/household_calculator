@@ -1,0 +1,6 @@
+**/.vscode
+!/.vscode/launch.json
+*.json
+*.pdf
+*.html
+*.exe
